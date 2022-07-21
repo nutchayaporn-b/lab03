@@ -8,8 +8,6 @@
 <style>
 .co-card {
     font-size: 20px;
-    position: absolute;
-    right: 10px;
 }
 </style>
 

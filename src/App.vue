@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HomeView />
+  <nav style="display:flex; gap: 10px; justify-content: center;">
+    <router-link to="/">Home</router-link>
+    <router-link to="/about">About</router-link>
+    <router-link to="/co">Category & Organizer</router-link>
+  </nav>
+  <router-view />
 </template>
 
 <script>
-import HomeView from './views/HomeView.vue';
 export default {
   name: 'App',
-  components: {
-    HomeView,
-  }
 };
 </script>
 
